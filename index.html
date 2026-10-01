@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f7f2" />
+    <meta name="description" content="Profil kelompok kelas. Informasi kelompok dan anggota akan dilengkapi bersama." />
+    <title>Profil Kelompok</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#/home" aria-label="Profil Kelompok, Home">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span>Profil Kelompok</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Buka navigasi">
+        <span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Navigasi utama">
+        <a href="#/home" data-route="home">Home</a>
+        <a href="#/profile" data-route="profile">Profile</a>
+        <a href="#/anggota" data-route="anggota">Anggota</a>
+        <a href="#/kontak" data-route="kontak">Kontak</a>
+      </nav>
+    </header>
+
+    <main id="page-content" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="brand footer-brand" href="#/home">
+          <span class="brand-mark" aria-hidden="true">K</span>
+          <span>Profil Kelompok</span>
+        </a>
+        <p>Ruang bersama untuk mengenal kelompok kami.</p>
+        <div class="footer-social"><span>Media sosial</span><span>Belum diisi</span></div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="current-year"></span> [Nama Kelompok]</span>
+        <nav aria-label="Navigasi footer">
+          <a href="#/home">Home</a>
+          <a href="#/profile">Profile</a>
+          <a href="#/anggota">Anggota</a>
+          <a href="#/kontak">Kontak</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
